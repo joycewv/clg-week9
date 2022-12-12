@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BBC News</title>
+    <meta name="description" content="A brief description">
+    <meta name="author" content="Little Lemon Restaurant">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="">
+  </head>
+  
+  <br> 
+  
+  <body>
+		<header>
+      <div>
+        <img class="site-logo" src="./img/logo.png" alt="BBC head logo">
+      </div>
+      <div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Sport</a></li>
+            <li><a href="#">Travel</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <article id="banner">
+          
+          <h1>We want to hear from you!</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ac maximus felis. Aliquam et nisl turpis. Curabitur nec quam erat. Proin porta finibus risus, vel pellentesque felis elementum ut. Maecenas sit amet sapien pharetra, tincidunt erat quis, posuere turpis. Maecenas faucibus interdum posuere. Suspendisse nec tempor orci. Nullam vestibulum erat vel velit pellentesque sodales sit amet nec augue. Aenean molestie finibus varius. Donec sagittis vestibulum enim, tincidunt maximus mi fringilla eget.
+          </p>
+        </article>
+      </section>
+
+      <br>
+      
+      <section class="main-container">
+        <article class="container">
+          <div class="container-image container-2"></div>
+          <h2>Divice and Frequency</h2>
+          <form action=".php">
+            <h4>What divice you prefer to read news?</h4>
+            <div>
+              <input type="radio"
+               name="divice" id="laptop" value="laptop">
+              <label for="laptop">Laptop</label>
+            </div>
+            <div>
+              <input type="radio"
+              name="divice" id="phone" value="mobile phone">
+              <label for="phone">Mobile phone</label>
+            </div>
+            <div>
+              <input type="radio"
+              name="divice" id="print" value="print out">
+              <lable for="print">Print out</lable>
+            </div>
+            <h4>How often do you use our website?</h4>
+            <div>
+              <input type="radio"
+              name="how often" id="day" value="daily">
+              <label for="day">Daily</label>
+            </div>
+            <div>
+              <input type="radio"
+              name="how often" id="week" value="weekly">
+              <label for="how often">Weekly</label>
+            </div>
+            <div>
+              <input type="radio"
+              name="how often" id="month" value="monthly">
+            <label for="how often">Monthly</label>
+            </div>
+            <br>
+            <input type="submit" value="Submit">
+          </form>
+        </article>
+        <br>
+        <article class="container">
+          <div class="container-image container-3"></div>
+          <h2>Overall Rating</h2>
+          <form action=".php">
+            <h4>How would you rate the BBC news by CLG?*</h4>
+          <div>
+            <input type="checkbox"
+            name="rating" id="good" value="good">
+            <label for="good">Good</label>
+          </div>
+          <div>
+            <input type="checkbox"
+            name="rating" id="bad" value="bad">
+            <label for="bad">Bad</label>
+          </div>
+          <br>
+          <input type="submit" value="Submit">
+          </form>
+
+          </article>
+        </article>
+        <br>
+        <article class="container">
+          <div class="container-image container-4"></div>
+          <h2>Suggestions and More</h2>
+          <form action=".php">
+          <h4>How did you hear about us?</h4>
+          <select id="inspo-choose">
+            <option value="">Choose one from below</option>
+            <option value="friend">Recommended by friend</option>
+            <option value="search engine">Search engine (Google, Yahoo, etc.)</option>
+            <option value="social media">Social media</option>
+          </select>
+          <h4>How can we improve your experience with the website?</h4>
+          <label for="inspo-why"></label>
+          <textarea id="inspo-why">Please type here...</textarea>
+          <h4>We would like to have your email</h4>
+          <input type="email" name="email" placeholder="Enter your email address here" >
+          <br>
+          <br>
+          <input type="submit" value="Submit">
+          </form>
+        </article>
+      </section>
+    </main>
+    
+    <br>
+
+    <footer>
+      <div>
+        <p>Cpypright BBC by CLG 2022</p>
+      </div>
+    </footer>
+		<script src="js/main.js"></script>
+	</body>
+</html>
+
